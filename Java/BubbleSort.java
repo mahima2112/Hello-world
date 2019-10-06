@@ -16,7 +16,8 @@ public class BubbleSort {
 	}
 	
 	public static void printArray(int [] input) {
-		for(int i=0;i<input.length;i++)
+		int n = input.length;
+		for(int i=0;i<n;i++) // take n instead of input.length so that the program doesnt find the length every time the loop runs
 		{
 		System.out.print(input[i]+ " ");	
 		}
